@@ -1,0 +1,55 @@
+[
+  {
+    "id": "wenzhen-case-4",
+    "source": "问真八字截图",
+    "gender": "female",
+    "calendar": "solar",
+    "inputDateTime": "1994-10-26 23:19",
+    "location": "河北省 石家庄市 长安区",
+    "longitude": 114.54,
+    "latitude": 38.04,
+    "trueSolarTimeShown": "1994-10-26 23:13:11",
+    "dayBoundary": "23:00",
+    "expectedPillars": ["甲戌", "甲戌", "丙戌", "戊子"],
+    "purpose": ["真太阳时", "子初换日", "子时柱"]
+  },
+  {
+    "id": "wenzhen-case-6",
+    "source": "问真八字截图",
+    "gender": "male",
+    "calendar": "solar",
+    "inputDateTime": "1992-08-07 20:30",
+    "location": "浙江省 台州市 临海市",
+    "longitude": 121.14,
+    "latitude": 28.86,
+    "trueSolarTimeShown": "1992-08-07 20:29:14",
+    "expectedPillars": ["壬申", "戊申", "乙卯", "丙戌"],
+    "purpose": ["真太阳时", "立秋节气交接", "月柱"]
+  },
+  {
+    "id": "wenzhen-case-49",
+    "source": "问真八字截图",
+    "gender": "female",
+    "calendar": "solar",
+    "inputDateTime": "2014-01-14 15:30",
+    "location": "陕西省 西安市 碑林区",
+    "longitude": 108.93,
+    "latitude": 34.23,
+    "trueSolarTimeShown": "2014-01-14 14:36:59",
+    "expectedPillars": ["癸巳", "乙丑", "乙酉", "癸未"],
+    "purpose": ["真太阳时", "立春前换年", "年柱"]
+  },
+  {
+    "id": "wenzhen-case-41",
+    "source": "问真八字截图",
+    "gender": "female",
+    "calendar": "solar",
+    "inputDateTime": "1993-02-11 17:00",
+    "location": "陕西省 西安市 新城区",
+    "longitude": 108.96,
+    "latitude": 34.27,
+    "trueSolarTimeShown": "1993-02-11 16:01:37",
+    "expectedPillars": ["癸酉", "甲寅", "癸亥", "庚申"],
+    "purpose": ["真太阳时", "立春后换年", "年柱月柱"]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "bazi-ai-web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:client": "vite --host 127.0.0.1 --port 4173",
+    "dev:server": "node --watch server/index.mjs",
+    "build": "vite build",
+    "test:luck": "node scripts/verify-luck-cases.mjs",
+    "test:db": "node scripts/verify-database.mjs",
+    "test:chart": "node scripts/verify-shared-chart.mjs",
+    "start": "node server/index.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "@vitejs/plugin-react": "5.0.4",
+    "concurrently": "^10.0.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "lunar-javascript": "^1.7.7",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "vite": "6.4.2"
+  }
+}
